@@ -1,0 +1,31 @@
+ion-content {
+    --background: url('../../assets/imgs/background.png') no-repeat center center/cover;
+    ion-card {
+        box-shadow: none;
+        border-radius: 20px;
+        transform: translateY(40%);
+        background-color: rgba(255, 255, 255, 0.3);
+        backdrop-filter: blur(8px);
+        div.lock {
+            font-size: 5rem;
+            ion-icon {
+                color: #4E0894;
+            }
+        }
+        ion-item {
+            --border-radius: 10px;
+        }
+        ion-input, .fwd {
+            font-size: 0.9rem;
+        }
+        .submit {
+            margin-top: 2rem;
+            ion-button {
+                --background: linear-gradient(to right, #B006D0, #4E0894);
+            }
+            ion-text {
+                font-size: 1rem;
+            }
+        }
+    }
+}

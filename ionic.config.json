@@ -1,0 +1,7 @@
+{
+  "name": "glass-login-ui",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
